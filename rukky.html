@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio Hero</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-wrapper {
+  padding: 40px;
+  background: radial-gradient(circle, #22d3ee33, transparent 60%);
+}
+
+.hero-card {
+  background: #111827;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  width: 900px;
+  box-shadow: 0 0 40px #22d3ee55;
+}
+
+.hero-text {
+  color: white;
+  max-width: 500px;
+}
+
+.small-text {
+  color: #22d3ee;
+  margin-bottom: 10px;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero-text h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.hero-text h2 span {
+  color: #22d3ee;
+}
+
+.desc {
+  font-size: 14px;
+  color: #cbd5f5;
+  margin-bottom: 20px;
+}
+
+.socials a {
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #22d3ee;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  background: #22d3ee;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero-image img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 60px;
+  border: 4px solid #22d3ee;
+}
+
+</style>
+<body>
+
+  <div class="hero-wrapper">
+    <div class="hero-card">
+
+      <div class="hero-text">
+        <p class="small-text">Hello, It's Me</p>
+        <h1>rukkaya bello gumbi</h1>
+        <h2>And I'm an <span>siwes student</span></h2>
+        
+
+        <p class="desc">
+          I am a cyber security student
+        </p>
+
+        <div class="socials">
+          <a href="#">🌐</a>
+          <a href="#">🐦</a>
+          <a href="#">💼</a>
+          <a href="#">📧</a>
+        </div>
+
+        <button>Download CV</button>
+      </div>
+
+      <div class="hero-image">
+        <img src="rukky3.png" alt="Profile Image">
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
